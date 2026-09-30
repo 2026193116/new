@@ -151,10 +151,3 @@ moves는 각 알고리즘 구현에서 정의한 기준에 따라 원소 이동 
 - **칵테일 셰이커 정렬**은 양방향 탐색과 조기 종료를 사용하지만 평균 및 최악의 시간 복잡도가 O(n²)입니다. 실제 크기 증가 실험에서도 입력 크기가 증가할수록 실행 시간이 빠르게 증가하여 이러한 특성이 관찰되었습니다.
 ### 6.3 언어 간 성능 비교
 이번 과제의 results.csv와 실험 그래프는 C 구현을 기준으로 생성하였으며, Python 구현은 동일한 알고리즘 구조와 통계 측정 방식을 사용하도록 별도로 구현하였습니다. C와 Python은 동일한 알고리즘을 구현하더라도 실행 모델과 런타임 오버헤드가 다르기 때문에 실제 실행 시간에 차이가 발생할 수 있습니다. 따라서 언어 간 절대적인 실행 시간을 직접 비교하기보다는, 동일한 언어와 동일한 실행 환경에서 알고리즘별 상대적인 성능 차이를 중심으로 해석하는 것이 적절합니다.
-## 7. 참고 자료
-- 사용한 AI : Copilot, Chat GPT
-1. [Wikipedia — Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
-2. [Wikipedia — Shellsort](https://en.wikipedia.org/wiki/Shellsort)
-3. [Wikipedia — Counting sort](https://en.wikipedia.org/wiki/Counting_sort)
-4. [Wikipedia — Cocktail shaker sort](https://en.wikipedia.org/wiki/Cocktail_shaker_sort)
-5. [강의 실습 template](https://github.com/lec-algorithm/hw1-sample-2026)
